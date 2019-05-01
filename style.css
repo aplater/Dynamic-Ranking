@@ -1,0 +1,32 @@
+.control{
+	display:flex;
+	flex-direction:row;	
+}
+.goog-inline-block .goog-menu-button-caption{
+	min-width:100px;
+}
+#levels, #zen_range_picker{
+	margin:0.5% 2% 0px 2%;
+}
+
+table thead th:nth-child(2){
+	min-width:80px;
+}
+fieldset{
+	font-size:0.8rem;
+	border: 1px solid #d2d5e3;
+	background:#f9f9f9;
+	display:table;
+	margin:0 auto;
+}
+legend{
+	font-weight:900;
+	font-size:12pt;
+	padding:1% 1%;
+	font-style:italic;
+}
+
+.character .goog-inline-block input{
+	width:90% !important;
+	padding:1% 1%;
+}
