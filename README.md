@@ -1,6 +1,6 @@
 # Dynamic Ranking Using Google Charts
 
-<image>https://i.gyazo.com/bc67b70940348eb71f93aaae3c6d3302.png</image>
+<img src='https://i.gyazo.com/bc67b70940348eb71f93aaae3c6d3302.png'></img>
 
 
 Sorting example using Google Charts API. 
