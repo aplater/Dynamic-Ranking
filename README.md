@@ -6,7 +6,8 @@
 
 With the query only
 
-<img src="https://darksteam.net/proxy.phpimage=https%3A%2F%2Fi.gyazo.com%2Fdc0c30c33d8edb0f202634da1887c303.png&hash=e700504ef3e09606bf9fe594ba8eb991">
+<img src="https://i.gyazo.com/a7d642452a688aac326a844d6594d492.png">
+Select count(Name) as MembersTotal, G_Name as GuildName from GuildMember group by G_Name order by MembersTotal DEsc
 Query => Create view Guilds as Select count(Name) as GuildMembersTotal, G_Name as GName from GuildMember group by G_Name;
 
 Sorting example using Google Charts API. 
