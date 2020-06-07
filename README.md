@@ -7,10 +7,13 @@
 With the query only
 
 <img src="https://i.gyazo.com/a7d642452a688aac326a844d6594d492.png">
-Select count(Name) as MembersTotal, G_Name as GuildName from GuildMember group by G_Name order by MembersTotal DEsc
+
+Query => Select count(Name) as MembersTotal, G_Name as GuildName from GuildMember group by G_Name order by MembersTotal DEsc;
+
 Query => Create view Guilds as Select count(Name) as GuildMembersTotal, G_Name as GName from GuildMember group by G_Name;
 
 Sorting example using Google Charts API. 
+
 Very simple and usefull for any web/mobile aplication that needs dynamic searches, pagination and filters without the need to create your own logic that will save a lot of time.
 
-Demo : http://5.9.94.164:50453/
+
