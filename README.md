@@ -8,9 +8,9 @@ With the query only
 
 <img src="https://i.gyazo.com/a7d642452a688aac326a844d6594d492.png">
 
-<code>Query => Select count(Name) as MembersTotal, G_Name as GuildName from GuildMember group by G_Name order by MembersTotal DEsc;</code>
+<p><code>Select count(Name) as MembersTotal, G_Name as GuildName from GuildMember group by G_Name order by MembersTotal DEsc;</code></p>
 
-Query => Create view Guilds as Select count(Name) as GuildMembersTotal, G_Name as GName from GuildMember group by G_Name;
+<p><code>Create view Guilds as Select count(Name) as GuildMembersTotal, G_Name as GName from GuildMember group by G_Name;</code></p>
 
 Sorting example using Google Charts API. 
 
